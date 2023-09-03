@@ -8,6 +8,10 @@ ln -s ~/.config/bash/.bash_profile ~/.bash_profile
 ln -s ~/.config/bash/.bashrc ~/.bashrc
 ln -s ~/.config/bash/.profile ~/.profile
 
+# tmux
+ln -s ~/.config/tmux/.tmux.conf ~/.tmux.conf
+ln -s ~/.config/tmux/.tmux/ ~/.tmux
+
 # zsh
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 
