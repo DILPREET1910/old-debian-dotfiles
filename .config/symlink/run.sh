@@ -1,6 +1,13 @@
 # this is a script to link system files to configs
 #!/bin/bash
 
+# bash
+ln -s ~/.config/bash/.bash_history ~/.bash_history
+ln -s ~/.config/bash/.bash_logout ~/.bash_logout
+ln -s ~/.config/bash/.bash_profile ~/.bash_profile
+ln -s ~/.config/bash/.bashrc ~/.bashrc
+ln -s ~/.config/bash/.profile ~/.profile
+
 # zsh
 ln -s ~/.config/zsh/.zshrc ~/.zshrc
 
