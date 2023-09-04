@@ -1,18 +1,18 @@
-# Enable colors and chage prompt
+# Enable colors and chage prompt:
 # This will only work if starship doesn't start
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 
-# autocd
+# autocd:
 setopt autocd
 
-# starship
+# starship:
 eval "$(starship init zsh)"
 
 #######################################################
 # ALIAS'S
 #######################################################
-# Alias's for multiple directory listing commands
+# Alias's for multiple directory listing commands:
 alias la='ls -Alh' # show hidden files
 alias ls='ls -aFh' # add colors and file type extensions
 alias lx='ls -lXBh' # sort by extension
@@ -28,7 +28,7 @@ alias labc='ls -lap' #alphabetical sort
 alias lf="ls -l | egrep -v '^d'" # files only
 alias ldir="ls -l | egrep '^d'" # directories only
 
-# Change directory aliases
+# Change directory aliases:
 alias home='cd ~'
 alias downloads='cd Downloads/'
 alias documents='cd Documents'
@@ -38,7 +38,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
-# Alias's for archives
+# Alias's for archives:
 alias mktar='tar -cvf'
 alias mkrar='rar a'
 alias mkbz2='tar -cvjf'
@@ -48,7 +48,7 @@ alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 alias unrar='rar x'
 
-# alias's to modify commands
+# alias's to modify commands:
 alias sndcpy='cd /home/dilpreet1910/Documents/Github/sndcpy-v1.1/ && ./sndcpy ; home'
 alias terminal='gnome-terminal'
 alias Terminal='gnome-terminal && exit'
@@ -64,18 +64,18 @@ alias rmt='trash -v'
 alias notify-send='notify-send -u critical '
 alias python='python3.10'
 
-# version control for dot files
+# version control for dot files:
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 #######################################################
 # EXPORT'S
 #######################################################
-# Chrome executable for flutter SDK
+# Chrome executable for flutter SDK:
 export CHROME_EXECUTABLE=/usr/bin/brave-browser
 
 
 #######################################################
-# color support commands
+# color support commands:
 #######################################################
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
