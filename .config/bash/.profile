@@ -29,5 +29,8 @@ fi
 
 # Added by Toolbox App
 export PATH="$PATH:/home/dilpreet1910/.local/share/JetBrains/Toolbox/scripts"
-export PATH="$PATH:/home/dilpreet1910/Documents/MyPrograms/Bash Scripting/myScripts/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+# manual addition of PATH
+export PATH="$PATH:/home/dilpreet1910/Documents/MyPrograms/Bash Scripting/myScripts/bin" # path to bin of my shell scripts
+export PATH="$PATH:/usr/local/go/bin"
