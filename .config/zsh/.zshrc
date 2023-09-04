@@ -68,6 +68,7 @@ alias get='aria2c -x 6 -s 6'
 alias rmt='trash -v'
 alias notify-send='notify-send -u critical '
 alias python='python3.10'
+alias history='history -E' # print history with time stamps
 
 # version control for dot files:
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
