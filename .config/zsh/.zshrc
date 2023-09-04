@@ -9,6 +9,9 @@ setopt autocd
 # starship:
 eval "$(starship init zsh)"
 
+# autojump
+. /usr/share/autojump/autojump.sh
+
 # cache history in .cache/zsh/history:
 HISTSIZE=10000000
 SAVEHIST=10000000
