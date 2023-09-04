@@ -130,9 +130,6 @@ alias python='python3.10'
 # version control for dot files
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-# Discord 
-alias discordmod='timeout 5h discord & sleep 15s && termdown 4h59m45s ; pkill discord'
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
