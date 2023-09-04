@@ -97,3 +97,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     alias grep='grep --color=auto'
 fi
+
+# Load syntax highlighting; should be last.
+source /home/dilpreet1910/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
