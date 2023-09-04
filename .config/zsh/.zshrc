@@ -48,6 +48,9 @@ alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 alias unrar='rar x'
 
+# version control for dot files
+alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
 #######################################################
 # EXPORT'S
 #######################################################
