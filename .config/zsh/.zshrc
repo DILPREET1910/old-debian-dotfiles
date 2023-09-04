@@ -72,13 +72,13 @@ alias history='history -E' # print history with time stamps
 
 # version control for dot files:
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias add-commit='dots add -u . && dots commit -m'
 
 #######################################################
 # EXPORT'S
 #######################################################
 # Chrome executable for flutter SDK:
 export CHROME_EXECUTABLE=/usr/bin/brave-browser
-
 
 #######################################################
 # color support commands:
