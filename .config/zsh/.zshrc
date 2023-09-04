@@ -117,7 +117,7 @@ export CHROME_EXECUTABLE=/usr/bin/brave-browser
 # Source shell scripts
 #######################################################
 # wakatime
-source /home/dilpreet1910/Documents/Github/bash-wakatime/bash-wakatime.sh
+source /home/dilpreet1910/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh
 
 #######################################################
 # color support commands:
