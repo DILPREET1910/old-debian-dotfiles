@@ -10,7 +10,7 @@ setopt autocd
 eval "$(starship init zsh)"
 
 #######################################################
-# GENERAL ALIAS'S
+# ALIAS'S
 #######################################################
 # Alias's for multiple directory listing commands
 alias la='ls -Alh' # show hidden files
@@ -47,3 +47,9 @@ alias untar='tar -xvf'
 alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 alias unrar='rar x'
+
+#######################################################
+# EXPORT'S
+#######################################################
+# Chrome executable for flutter SDK
+export CHROME_EXECUTABLE=/usr/bin/brave-browser
