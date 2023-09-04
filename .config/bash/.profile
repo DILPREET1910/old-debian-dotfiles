@@ -33,4 +33,5 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 # manual addition of PATH
 export PATH="$PATH:/home/dilpreet1910/Documents/MyPrograms/Bash Scripting/myScripts/bin" # path to bin of my shell scripts
-export PATH="$PATH:/usr/local/go/bin"
+export PATH="$PATH:/usr/local/go/bin" # go sdk
+export PATH="$PATH:/home/dilpreet1910/go/bin" # bin for installed go programs
