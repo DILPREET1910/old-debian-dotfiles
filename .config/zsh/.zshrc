@@ -9,6 +9,11 @@ setopt autocd
 # starship:
 eval "$(starship init zsh)"
 
+# cache history in .cache/zsh/history:
+HISTSIZE=10000000
+SAVEHIST=10000000
+HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
+
 #######################################################
 # ALIAS'S
 #######################################################
