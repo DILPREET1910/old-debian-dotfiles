@@ -81,6 +81,12 @@ alias add-commit='dots add -u . && dots commit -m'
 export CHROME_EXECUTABLE=/usr/bin/brave-browser
 
 #######################################################
+# Source shell scripts
+#######################################################
+# wakatime
+source /home/dilpreet1910/Documents/Github/bash-wakatime/bash-wakatime.sh
+
+#######################################################
 # color support commands:
 #######################################################
 if [ -x /usr/bin/dircolors ]; then
