@@ -113,11 +113,6 @@ alias add-commit='dots add -u . && dots commit -m'
 # Chrome executable for flutter SDK:
 export CHROME_EXECUTABLE=/usr/bin/brave-browser
 
-#######################################################
-# Source shell scripts
-#######################################################
-# wakatime
-source /home/dilpreet1910/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh
 
 #######################################################
 # color support commands:
@@ -128,5 +123,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
 fi
 
-# Load syntax highlighting; should be last.
-source /home/dilpreet1910/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+#######################################################
+# PLUGINS:
+#######################################################
+source /home/dilpreet1910/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh # wakatime
+source /home/dilpreet1910/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh #syntax highlighting; *should be at the last line of .zshrc*
