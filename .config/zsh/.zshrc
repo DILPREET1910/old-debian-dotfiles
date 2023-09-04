@@ -48,6 +48,22 @@ alias unbz2='tar -xvjf'
 alias ungz='tar -xvzf'
 alias unrar='rar x'
 
+# alias's to modify commands
+alias sndcpy='cd /home/dilpreet1910/Documents/Github/sndcpy-v1.1/ && ./sndcpy ; home'
+alias terminal='gnome-terminal'
+alias Terminal='gnome-terminal && exit'
+alias bashrc='vim ~/.bashrc'
+alias post='cd /home/dilpreet1910/Documents/My\ Programs/Bash\ Scripting/Post\ install\ script && vim list.sh'
+alias vim='nvim'
+alias vimrc='vim /home/dilpreet1910/.config/nvim/init.vim'
+alias clr='clear'
+alias h="history | grep "
+alias decryptBase64='base64 -d | base64 -d | base64 -d' # it is basically for nebula pirated discord server's decryption of download links
+alias get='aria2c -x 6 -s 6'
+alias rmt='trash -v'
+alias notify-send='notify-send -u critical '
+alias python='python3.10'
+
 # version control for dot files
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
