@@ -29,7 +29,7 @@ _comp_options+=(globdots)		# Include hidden files.
 #######################################################
 # vi mode:
 bindkey -v
-export KEYTIMEOUT=1
+bindkey -M viins jj vi-cmd-mode
 
 # Change cursor shape for different vi modes:
 function zle-keymap-select () {
