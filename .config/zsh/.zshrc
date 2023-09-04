@@ -14,7 +14,7 @@ eval "$(starship init zsh)"
 #######################################################
 # Alias's for multiple directory listing commands
 alias la='ls -Alh' # show hidden files
-alias ls='ls -aFh --color=always' # add colors and file type extensions
+alias ls='ls -aFh' # add colors and file type extensions
 alias lx='ls -lXBh' # sort by extension
 alias lk='ls -lSrh' # sort by size
 alias lc='ls -lcrh' # sort by change time
@@ -53,3 +53,13 @@ alias unrar='rar x'
 #######################################################
 # Chrome executable for flutter SDK
 export CHROME_EXECUTABLE=/usr/bin/brave-browser
+
+
+#######################################################
+# color support commands
+#######################################################
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias grep='grep --color=auto'
+fi
