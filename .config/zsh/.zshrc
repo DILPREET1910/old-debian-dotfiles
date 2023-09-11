@@ -148,4 +148,5 @@ fi
 # PLUGINS:
 #######################################################
 source /home/dilpreet1910/.config/zsh/plugins/wakatime-zsh-plugin/wakatime.plugin.zsh # wakatime
-source /home/dilpreet1910/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh #syntax highlighting; *should be at the last line of .zshrc*
+source /home/dilpreet1910/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # syntax highlighting; *should be at the last line of .zshrc*
+source /home/dilpreet1910/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh # autosuggestions
