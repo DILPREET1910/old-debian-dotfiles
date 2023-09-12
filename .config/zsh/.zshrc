@@ -122,6 +122,7 @@ alias rmt='trash -v'
 alias notify-send='notify-send -u critical '
 alias python='python3.10'
 alias history='history -E' # print history with time stamps
+alias grep='grep -i' # make grep case insensitive
 
 # version control for dot files:
 alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
