@@ -11,8 +11,12 @@
             "id": "4a412667e6b3ef2e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Quick Notes/Unix.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -176,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f53c6c1511c0f8e1",
+  "active": "4a412667e6b3ef2e",
   "lastOpenFiles": [
-    "2023-09-14.md",
     "Quick Notes/Unix.md",
+    "2023-09-14.md",
     "Quick Notes",
     "2023-09-11.md",
     "Untitled 1.canvas",
