@@ -20,3 +20,6 @@ ln -s ~/.config/starship/starship.toml ~/.config/starship.toml
 
 # vimrc for jetbrain IDEs
 ln -s ~/.config/ideavim/.ideavimrc ~/.ideavimrc
+
+# obsidian .obsidian directory
+ln -s ~/.config/obsidian/.obsidian ~/Documents/Obsidian\ Vault/.obsidian
