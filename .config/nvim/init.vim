@@ -19,11 +19,3 @@ imap jj <Esc>
 " SOME BEAUTIFUL INSIGHTS
 " 1) vim terminal cannot remap backspace
 " you can remap in other gui based apps with <Bs>
-
-" move lines with ctrl-j and ctrl-k
-nnoremap <c-j> :m .+1<CR>==
-nnoremap <c-k> :m .-2<CR>==
-inoremap <c-j> <Esc>:m .+1<CR>==gi
-inoremap <c-k> <Esc>:m .-2<CR>==gi
-vnoremap <c-j> :m '>+1<CR>gv=gv
-vnoremap <c-k> :m '<-2<CR>gv=gv but on terminal it simply does not work
