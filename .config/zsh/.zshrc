@@ -88,8 +88,8 @@ alias ldir="ls -l | egrep '^d'" # directories only
 
 # Change directory aliases:
 alias home='cd ~'
-alias downloads='cd Downloads/'
-alias documents='cd Documents'
+alias downloads='cd ~/Downloads/'
+alias documents='cd ~/Documents/'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias ...='cd ../..'
