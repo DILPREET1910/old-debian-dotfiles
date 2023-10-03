@@ -123,10 +123,6 @@ alias notify-send='notify-send -u critical '
 alias python='python3.10'
 alias history='history -E 0' # print whole(0) history with time stamps(-E)
 
-# version control for dot files:
-alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias add-commit='dots add -u . && dots commit -m'
-
 #######################################################
 # EXPORT'S
 #######################################################
