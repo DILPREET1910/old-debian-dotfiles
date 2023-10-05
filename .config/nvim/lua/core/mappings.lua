@@ -6,7 +6,7 @@ M.general = {
   i = {
     -- go to  beginning and end
     ["<C-b>"] = { "<ESC>^i", "Beginning of line" },
-    ["<C-e>"] = { "<End>", "End of line" },
+    -- ["<C-e>"] = { "<End>", "End of line" }, ctrl e is now used by nvimtree
 
     -- navigate within insert mode
     ["<C-h>"] = { "<Left>", "Move left" },
@@ -258,7 +258,7 @@ M.nvimtree = {
 
   n = {
     -- toggle
-    ["<C-n>"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
+    ["<C-e>"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
 
     -- focus
     ["<leader>e"] = { "<cmd> NvimTreeFocus <CR>", "Focus nvimtree" },
