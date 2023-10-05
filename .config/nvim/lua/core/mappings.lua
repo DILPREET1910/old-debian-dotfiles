@@ -5,8 +5,8 @@ local M = {}
 M.general = {
   i = {
     -- go to  beginning and end
-    ["<C-b>"] = { "<ESC>^i", "Beginning of line" },
-    -- ["<C-e>"] = { "<End>", "End of line" }, ctrl e is now used by nvimtree
+      -- ["<C-b>"] = { "<ESC>^i", "Beginning of line" },
+      -- ["<C-e>"] = { "<End>", "End of line" }, ctrl e is now used by nvimtree
 
     -- navigate within insert mode
     ["<C-h>"] = { "<Left>", "Move left" },
