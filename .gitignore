@@ -1,0 +1,21 @@
+# ingnore everything
+/*
+
+# except these
+!.gitignore
+
+!/.config
+/.config/*
+
+!/.config/bash
+!/.config/dmenu
+!/.config/dwm
+!/.config/ideavim
+!/.config/nvim.backup
+!/.config/nvim
+!/.config/st
+!/.config/starship
+!/.config/symlink
+!/.config/tmux
+!/.config/vim
+!/.config/zsh
