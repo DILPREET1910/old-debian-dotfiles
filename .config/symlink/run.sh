@@ -26,3 +26,10 @@ ln -s ~/.config/vim/.vimrc ~/.vimrc
 
 # obsidian .obsidian directory
 ln -s ~/.config/obsidian/.obsidian ~/Documents/Obsidian\ Vault/.obsidian
+
+# flatpak for dmenu
+sudo ln -s /var/lib/flatpak/exports/bin/com.google.Chrome /usr/bin/chrome
+sudo ln -s /var/lib/flatpak/exports/bin/com.obsproject.Studio /usr/bin/obs
+sudo ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian /usr/bin/obsidian
+sudo ln -s /var/lib/flatpak/exports/bin/org.telegram.desktop /usr/bin/telegram
+sudo ln -s /var/lib/flatpak/exports/bin/com.getpostman.Postman /usr/bin/postman
