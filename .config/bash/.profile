@@ -26,6 +26,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+# set wallpaper for dwm
+feh --bg-fill ~/Pictures/wallpapers/first-collection/ign_astronaut.png
 
 # Added by Toolbox App
 export PATH="$PATH:/home/dilpreet1910/.local/share/JetBrains/Toolbox/scripts"
