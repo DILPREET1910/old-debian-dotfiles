@@ -1,0 +1,6 @@
+# basic settings
+set hidden true
+set ignorecase true
+set icons true
+set previewer '~/.config/lf/previewer'
+set cleaner '~/.config/lf/cleaner'
