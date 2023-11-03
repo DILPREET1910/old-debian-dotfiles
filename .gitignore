@@ -3,6 +3,8 @@
 
 # except these
 !.gitignore
+!README.md
+!assets/
 
 !/.config
 /.config/*
